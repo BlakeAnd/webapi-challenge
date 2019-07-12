@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+1) express routing 2) express middleware
+
 - [ ] Describe Middleware?
+
+parts of the program that the data/call from front end passes through before going to the call to a resource. may modify, check for validity, or display information to dev console about said info, or more. 
 
 - [ ] Describe a Resource?
 
+whatever our api is managing, making calls to. usually a database. 
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+status codes in the range of 200-299
+
 - [ ] How can we partition our application into sub-applications?
+
+using express routing
 
 ## Project Setup
 
